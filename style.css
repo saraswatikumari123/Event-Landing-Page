@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEBEE; /* Bright Pink Background */
+    color: #212121; /* Darker text */
+}
+
+header {
+    background-color: #D81B60; /* Vivid Pink */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5rem; /* Larger heading */
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #D81B60; /* Vivid Pink */
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #FCE4EC; /* Light Pink */
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav ul li a:hover {
+    color: #880E4F; /* Deep Purple-Pink */
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #AD1457; /* Bold Pink */
+    margin-bottom: 1rem;
+    font-size: 2.5rem; /* Larger heading */
+}
+
+.schedule li {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.team-member {
+    margin-bottom: 2.5rem;
+}
+
+.team-member h3 {
+    color: #C2185B; /* Rich Pink */
+    font-size: 2rem;
+}
+
+.team-member p {
+    color: #616161; /* Darker Grey for Text */
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #C2185B; /* Rich Pink */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #E91E63; /* Bold Pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #880E4F; /* Deep Purple-Pink */
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #FFEBEE; /* Light Pink */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin: 0.7rem 0;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin: 0.7rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.7rem 1.5rem;
+    background-color: #E91E63; /* Bold Pink */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #880E4F; /* Deep Purple-Pink */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+    }
+}
